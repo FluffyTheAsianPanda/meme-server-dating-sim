@@ -1,35 +1,27 @@
-# The script of the game goes in this file.
+#prolly gonna need to divide the script into days and then routes uwu
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
+define f = Character("Fluff", color="#5aea6a")
+define a = Character("Ari", color="#f0c30f")
+define b = Character("Bobbo", color="#ff91da")
+define j = Character("Jenny", color="#e57e22")
+define ka = Character("Karu", color="#32cd32")
+define ki = Character("Kitty", color="#f15c9e")
+define o = Character("Oana", color="#ce5aff")
+define r = Character("Ranch", color="#4fdcf5")
+define s = Character("Sesa", color="#79588f")
+define t = Character("Tommo", color="#277ecd")
+define v = Character("Viv", color="#ff013a")
 
 
 # The game starts here.
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
     scene bg room
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
 
     show eileen happy
 
-    # These display lines of dialogue.
-
-    "Hello, world."
-
     e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
+    e "Once you add a story, pictures, and music, you can release it to the world!
 
     return
